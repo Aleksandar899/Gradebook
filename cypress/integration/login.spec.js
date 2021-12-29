@@ -35,7 +35,7 @@ describe('Gradebook login', () => {
 
     })
 
-    it.only ('adding professor', ()=> {
+    it('adding professor', ()=> {
         cy.intercept({
             method: 'GET',
             url: 'https://gradebook-api.vivifyideas.com/api/professors/create',
