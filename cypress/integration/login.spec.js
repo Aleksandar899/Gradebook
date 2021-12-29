@@ -42,7 +42,6 @@ describe('Gradebook login', () => {
 
         }).as("addProfessor");
 
-        // authLogin.login(validEmail, validPass);
         cy.wait(1000);
         addProfessor.addProfessorBtn.click();
 
