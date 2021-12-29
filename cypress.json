@@ -1,0 +1,8 @@
+{
+    "baseUrl": "https://gradebook.vivifyideas.com/",
+    "video": false,
+    "env": {
+        "validUserEmail": "aleksandarloncar899@gmail.com",
+        "validUserPassword": "Test123"
+    }
+}
